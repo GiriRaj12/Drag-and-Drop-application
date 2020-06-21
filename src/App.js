@@ -31,6 +31,7 @@ class App extends React.Component{
       }
       this.setState(newState);
     };
+    
   render(){
     return(
     <DragDropContext onDragEnd ={this.onDragEnd}>
